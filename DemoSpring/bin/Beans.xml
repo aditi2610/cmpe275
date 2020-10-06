@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- this bean with id greeter is a bean of class ImplGreeter -->
+ <bean id="greeter" class = "com.trySpring.ImplGreeter">
+ <!-- The greeter bean has property name and the names can be set here -->
+  <property name="name" value ="Alice"/>
+<!--  <constructor-arg value = "Adit"></constructor-arg> -->
+ </bean>
+ 
+</beans>
